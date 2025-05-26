@@ -1,22 +1,17 @@
-import React from "react";
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Order from "./Order";
-
-
-// const Pizza = (props) => {
-//   return React.createElement("div", {}, [
-//     React.createElement("h1", {}, props.name),
-//     React.createElement("p", {}, props.desc),
-//   ]);
-// };
+import PizzaOfTheDay from "./PizzaOfTheDay";
 
 const App = () => {
   return (
-    <div>
-
-      <Order />
-      {/* <Pizza name="Pepperoni" desc="Eat it" image={'/public/pizzas/pepperoni.webp'} /> */}
-    </div>
+    <StrictMode>
+      <div>
+        <h1 className="logo">Padre Gino's Pizza</h1>
+        <Order />
+        <PizzaOfTheDay />
+      </div>
+    </StrictMode>
   );
 };
 
