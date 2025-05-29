@@ -5,10 +5,9 @@ import {routeTree} from './routeTree.gen'
 
 const router = createRouter({ routeTree})
 const App = () => {
-  const cartHook = useState([])
   return (
     <StrictMode>
-      <RouterProvider router={router}
+      <RouterProvider router={router} />
     </StrictMode>
   );
 };
