@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext, use} from "react";
-import Pizza from "./Pizza";
-import Cart from './Cart'
-import { CartContext } from "./contexts";
+import Pizza from "../Pizza";
+import Cart from '../Cart'
+import { CartContext } from "../contexts";
 
 
 const intl = new Intl.NumberFormat("en-US", {
