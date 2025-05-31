@@ -16,12 +16,8 @@ body {
     font-family: "Rubik Bubbles", system-ui;
     font-weight: 400;
     font-style: normal;
-    background-color: #dbdaff;
+    background-color: #d9ee8f;
     color: #040240;
-}
-
-.pizza-cont {
-    background-color: #BFF205;
 }
 
 input[type=radio] {
@@ -40,7 +36,7 @@ input[type="radio"] {
     border-radius: 5px;
     margin: 5px;
     display: inline-block;
-    background-color: #7D8C0B;
+    background-color: #ffcc00;
     color: #040240;
     transition: background-color 0.3s ease;
 }
